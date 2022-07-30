@@ -61,3 +61,16 @@ footer {
 input {
 	margin: 0.75em;
 }
+
+button {
+	background-color: coral;
+	color: white;
+	border-radius: 2px;
+	border: 1px solid white;
+}
+
+button:hover {
+	color: crimson;
+	background-color: white;
+	border: 1px solid crimson;
+}

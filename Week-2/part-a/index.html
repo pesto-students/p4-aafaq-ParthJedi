@@ -57,23 +57,25 @@
 				</article>
 			</section>
 			<div class="form-div">
-				<h3>Join us and be a volunteer to fight climate change!</h3>
+				<h3>Register with us and become a volunteer to fight climate change!</h3>
 				<form action="#">
-					<label> Name: </label>
+                    <label>Title:</label>
+                    <input type="radio" name="title" value="master">Ms</input>
+                    <input type="radio" name="title" value="mister">Mr</input>
+                    <input type="radio" name="title" value="misses">Mrs</input>
+                    <br />
+					<label> Name:</label>
 					<input type="text" required name="name" /><br />
-					<label> Email: </label>
+					<label> Email:</label>
 					<input type="email" required name="email" /><br />
-					<label> Phone: </label>
+                    <label> Password:</label>
+					<input type="password" required name="password" /><br />
+                    <label> Confirm Password:</label>
+					<input type="password" required name="confirm-password" /><br />
+					<label> Phone:</label>
 					<input type="tel" required name="telephone" /><br />
-					<input
-						type="submit"
-						style="
-							background-color: coral;
-							color: white;
-							border-radius: 2px;
-							border: 1px solid white;
-						"
-					/>
+					<button type="submit">Register</button>
+
 				</form>
 			</div>
 		</div>
