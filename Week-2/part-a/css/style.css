@@ -47,3 +47,17 @@ footer {
 	text-align: center;
 	padding: 1em;
 }
+
+.form-div {
+	display: flex;
+	flex-direction: column;
+	background-color: crimson;
+	padding: auto;
+	border-radius: 20px;
+	align-items: center;
+	padding-bottom: 1em;
+}
+
+input {
+	margin: 0.75em;
+}
