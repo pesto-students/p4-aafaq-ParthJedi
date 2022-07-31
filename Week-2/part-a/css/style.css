@@ -15,9 +15,16 @@ header {
 	margin-bottom: 3em;
 }
 
+form a {
+	color: gainsboro;
+}
+
+form a:hover {
+	color: coral;
+}
+
 section {
 	display: flex;
-	float: clear;
 	margin-bottom: 2em;
 }
 
