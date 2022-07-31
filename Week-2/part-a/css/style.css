@@ -29,7 +29,7 @@ section {
 }
 
 img {
-	width: 500px;
+	width: 575px;
 	float: left;
 }
 
@@ -80,4 +80,18 @@ button:hover {
 	color: crimson;
 	background-color: white;
 	border: 1px solid crimson;
+}
+
+.grid-container {
+	display: grid;
+	margin: 3em;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 850px) {
+	img {
+		width: 88%;
+		float: none;
+		margin-left: 5%;
+	}
 }
