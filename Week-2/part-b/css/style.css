@@ -1,0 +1,61 @@
+.main {
+	margin-left: 150px;
+	height: 200px;
+	width: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	z-index: 2;
+}
+
+.transition-transform {
+	transition: transform 1s;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.main:hover .red {
+	transform: rotate(90deg);
+	transform-origin: top left;
+}
+
+.main:hover .yellow {
+	transform: rotate(-90deg);
+	transform-origin: top right;
+}
+
+.main:hover .green {
+	transform: rotate(90deg);
+	transform-origin: bottom right;
+}
+
+.main:hover .blue {
+	transform: rotate(-90deg);
+	transform-origin: bottom left;
+}
+
+.label {
+	position: absolute;
+	z-index: 1;
+}
