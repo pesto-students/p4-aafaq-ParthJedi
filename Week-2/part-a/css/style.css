@@ -1,0 +1,97 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: coral;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: white;
+}
+header {
+	width: 100%;
+	height: auto;
+	background-color: crimson;
+	text-align: center;
+	padding: 0.25em;
+	margin-bottom: 3em;
+}
+
+form a {
+	color: gainsboro;
+}
+
+form a:hover {
+	color: coral;
+}
+
+section {
+	display: flex;
+	margin-bottom: 2em;
+}
+
+img {
+	width: 575px;
+	float: left;
+}
+
+#section-2 {
+	flex-direction: column;
+}
+
+.wrapper {
+	margin: 2em;
+}
+
+h3 {
+	font-weight: 900;
+}
+
+article {
+	padding: 1em;
+}
+
+footer {
+	background-color: crimson;
+	text-align: center;
+	padding: 1em;
+}
+
+.form-div {
+	display: flex;
+	flex-direction: column;
+	background-color: crimson;
+	padding: auto;
+	border-radius: 20px;
+	align-items: center;
+	padding-bottom: 1em;
+}
+
+input {
+	margin: 0.75em;
+}
+
+button {
+	background-color: coral;
+	color: white;
+	border-radius: 2px;
+	border: 1px solid white;
+}
+
+button:hover {
+	color: crimson;
+	background-color: white;
+	border: 1px solid crimson;
+}
+
+.grid-container {
+	display: grid;
+	margin: 3em;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 850px) {
+	img {
+		width: 88%;
+		float: none;
+		margin-left: 5%;
+	}
+}
