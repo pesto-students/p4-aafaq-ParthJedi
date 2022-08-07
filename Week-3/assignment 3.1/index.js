@@ -2,9 +2,8 @@
 
 const memoize = (fn) => {
 	const cache = new Map();
-	const key = args.toString();
-
 	return function (...args) {
+		const key = args.toString();
 		if (cache.has(key)) {
 			return cache.get(key);
 		}
