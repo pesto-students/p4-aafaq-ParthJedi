@@ -11,3 +11,5 @@ const obj = {
 };
 
 sum.bind(obj); // 50
+
+sum.bind({a: 10, b: 20}); // still 50 as the first bind value is permanent in nature
