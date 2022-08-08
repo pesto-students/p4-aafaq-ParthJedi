@@ -2,7 +2,7 @@
 // it also takes positional agument list
 
 function weather() {
-	return `The ${this.weather} requires you to ${this.remedy}`;
+	return `The ${this.weather} weather requires you to ${this.remedy}`;
 }
 
 const obj = {
