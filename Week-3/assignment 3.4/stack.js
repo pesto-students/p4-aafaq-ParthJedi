@@ -1,16 +1,17 @@
 const createStack = () => {
-	let items = [];
-
-	return {
-		push(item) {
-			items.push(item);
-		},
-		pop() {
-			items.pop();
-		},
-		getItems() {
-			console.log(items);
-		}
-	};
+	return (function () {
+		return {
+			items: [],
+			push(item) {
+				this.items.push(item);
+			},
+			pop() {
+				this.items.pop();
+			},
+			getItems() {
+				console.log(this.items);
+			}
+		};
+	})();
 };
 const stack = createStack();
