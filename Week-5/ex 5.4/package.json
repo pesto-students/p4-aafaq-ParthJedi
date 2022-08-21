@@ -1,0 +1,15 @@
+{
+  "name": "jest-assignment",
+  "version": "1.0.0",
+  "description": "demonstrate basic testing using jest",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "parth joshi",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
