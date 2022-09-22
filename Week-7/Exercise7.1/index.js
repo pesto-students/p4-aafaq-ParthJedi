@@ -1,4 +1,4 @@
-import { LinkedList, Node } from '../Utilities/linkedList.mjs';
+import { LinkedList, Node } from '../utils/linkedList';
 
 let list = new LinkedList();
 
