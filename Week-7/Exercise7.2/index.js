@@ -1,4 +1,4 @@
-import { LinkedList, Node } from '../utils/linkedList.js';
+import { LinkedList, Node } from '../utils/linkedList';
 
 let list1 = new LinkedList();
 let list2 = new LinkedList();
@@ -29,5 +29,5 @@ list2.printList();
 
 /**
  * Space Complexity - O(1)
- * Time Complexity - O(N) (As we are traversing through entire list)
+ * Time Complexity - O(N)
  */
