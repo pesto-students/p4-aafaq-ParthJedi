@@ -1,0 +1,31 @@
+body {
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+
+div.todoPill {
+	border-radius: 5px;
+	background-color: orangered;
+	padding: 1.2em;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+button.deleteBtn {
+	background-color: red;
+	color: white;
+	border: 2px solid white;
+	border-radius: 3px;
+}
+
+button.deleteBtn:hover {
+	background-color: white;
+	color: red;
+	border: 2px solid red;
+	cursor: pointer;
+}
+
+.strikedColumn {
+	font-weight: bolder;
+}
